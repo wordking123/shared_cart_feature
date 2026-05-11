@@ -43,7 +43,7 @@ class _SharedCartDescriptionPageState extends State<SharedCartDescriptionPage> {
         leading: BackButton(
           onPressed: () => SharedCartNavigation.back(context),
         ),
-        title: const Text('购物车说明'),
+        title: const Text('购物车说明-new'),
       ),
       body: Obx(() {
         final totalQuantity = SharedCartFeature.cart.totalQuantity;
